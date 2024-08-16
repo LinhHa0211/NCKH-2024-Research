@@ -1,1 +1,2 @@
-# NCKH-2024
+VIMVA: Innovative Multimodal Recognition in
+Vietnamese Folk Dance Video Analysis
