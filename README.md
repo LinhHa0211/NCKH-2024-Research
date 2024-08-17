@@ -3,13 +3,13 @@ Vietnamese Folk Dance Video Analysis
 
 Attached Into The paper For The Camera Version
 
-Video 1:
+# **VIDEO 1:**
 ![Results1](./demo/demo1.jpg)
 
-Video 2:
+# **VIDEO 2:**
 ![Results2](./demo/demo2.jpg)
 
-Video 3:
+# **VIDEO 3:**
 ![Results3](./demo/demo3.1.jpg)
 
 
