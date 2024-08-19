@@ -13,7 +13,7 @@
     "gpt_model": "gpt-4o-mini",
     "phobert_model_path": "D:/NCKH/models/phobert-base-v2-trained", 
     "faiss_db_vectors_path": "D:/NCKH/models/faiss/db_vectors-pbbase-v2-trained-128.npy",
-    "database_path": "D:/NCKH/database/dataset_text.xlsx",
+    "database_path": "D:/NCKH/database/database_text.xlsx",
     "faiss_dis_type": "Cosine",
     "faiss_k": 3,
     "n_sentences_per_class": 5,
