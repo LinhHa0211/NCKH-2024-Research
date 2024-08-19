@@ -7,10 +7,17 @@ Attached Into The paper For The Camera Version
 
 # Requirement:
   ## Library
-  ##### *To download YOLO model*
+  ##### *To cut video and extract frame*
   ```
-    pip install ultralytics
-    
+     pip install moviepy
+ ```
+  ##### *To download, train and use YOLO model*
+  ```
+     pip install ultralytics
+ ```
+##### *To download, train and use PhoBERT model*
+  ```
+     pip install transformers torch
  ```
 # Train Model
 
