@@ -9,7 +9,8 @@ Attached Into The paper For The Camera Version
   ## 1.1 Library
   ```
   #To download YOLO model
-  pip install ultralytics
+
+    pip install ultralytics
  ```
 
 # Result:
