@@ -7,7 +7,10 @@ Attached Into The paper For The Camera Version
 
 # 1. Requirement:
   ## 1.1 Library
-  ```import ```
+  ```
+  #To download YOLO model
+  pip install ultralytics
+ ```
 
 # Result:
 ***Video 1:***
