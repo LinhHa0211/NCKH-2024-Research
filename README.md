@@ -5,13 +5,14 @@ Attached Into The paper For The Camera Version
 
 # Introduction:
 
-# 1. Requirement:
-  ## 1.1 Library
+# Requirement:
+  ## Library
+  ##### *To download YOLO model*
   ```
-  #To download YOLO model
-
     pip install ultralytics
+    
  ```
+# Train Model
 
 # Result:
 ***Video 1:***
