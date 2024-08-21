@@ -6,19 +6,25 @@ Attached Into The paper For The Camera Version
 # Introduction:
 
 # Requirement:
-  ## Library
-  ##### *To cut video and extract frame*
-  ```
+## Library
+##### *To cut video and extract frame*
+```
      pip install moviepy
- ```
-  ##### *To download, train and use YOLO model*
-  ```
+```
+##### *To download, train and use YOLO model*
+```
      pip install ultralytics
- ```
+```
+##### *To download, use VnCoreNLP*
+```
+    pip install py_vncorenlp
+```
 ##### *To download, train and use PhoBERT model*
-  ```
+```
      pip install transformers torch
- ```
+```
+
+
 # Train Model
 
 # Result:
