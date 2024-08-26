@@ -70,7 +70,10 @@ Replace ```your_model_path_dir``` with the path to save your model.
 
 ***Video 3:*** <br>
 **True Label**: *Điệu múa Rô băm Chun Por của người Khmer* <br>
-**Pred Label**: *Điệu múa Rô băm Chun Por của người Khmer*
+**Pred Label**: <br>
+*1. Điệu múa Rô băm Chun Por của người Khmer* appears for 160 seconds in the video. <br>
+*2. Điệu múa nón lá của người Kinh* appears for 20 seconds in the video. <br>
+Therefore, we conclude that the label *Điệu múa Rô băm Chun Por của người Khmer* has higher confidence because it appears more frequently in the video than the other label.
 ![Results3](./demo/demo3.1.jpg) <br>
 
 
