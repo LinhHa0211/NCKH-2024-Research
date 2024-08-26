@@ -52,7 +52,7 @@ model_name = 'vinai/phobert-base-v2'
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSequenceClassification.from_pretrained(model_name)
 ```
-After that, the model is ready for training *(using a GPU is recommended)*. Finally, you should save the model *(for later use)* with this command:
+After that, the model is ready for training *(using a GPU is recommended)*. Finally, you should save the model *(for later use)* with the commands:
 ```
 tokenizer.save_pretrained('your_model_path_dir')
 model.save_pretrained('your_model_path_dir')
