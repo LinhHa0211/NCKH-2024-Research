@@ -7,19 +7,26 @@ Attached Into The paper For The Camera Version
 
 # Requirement:
 ## Library
-##### *To cut video and extract frame*
+##### 1. To cut video and extract frame
 ```
      pip install moviepy
 ```
-##### *To download, train and use YOLO model*
+##### 2. To download, train and use YOLO model
 ```
      pip install ultralytics
 ```
-##### *To download, use VnCoreNLP*
+##### 3. To download, use VnCoreNLP
 ```
     pip install py_vncorenlp
 ```
-##### *To download, train and use PhoBERT model*
+To use VnCoreNLP, your computer must install JVM (Java Virtual Machine). You can check it with this command in **Command Prompt**
+```
+     java -version
+```
+If you installed, the result is like below:
+![JVM]()
+Otherwise, you can download JVM at link: https://www.oracle.com/java/technologies/downloads/#java8
+##### 4. To download, train and use PhoBERT model*
 ```
      pip install transformers torch
 ```
