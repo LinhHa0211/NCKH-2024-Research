@@ -60,12 +60,12 @@ Replace ```your_model_path_dir``` with the path to save your model.
 # Result:
 ***Video 1:*** <br>
 **True Label**: *"Điệu múa sen của người Kinh"* <br>
-**Predicted Label**: *"Điệu múa sen của người Kinh"*
+**Predicted Labels**: *"Điệu múa sen của người Kinh"*
 ![Results1](./demo/demo1.jpg) <br>
 
 ***Video 2:*** <br>
 **True Label**: *"Điệu múa sạp của người Thái, Mường"* <br>
-**Predicted Label**: *"Điệu múa sạp của người Thái, Mường"*
+**Predicted Labels**: *"Điệu múa sạp của người Thái, Mường"*
 ![Results2](./demo/demo2.jpg) <br>
 
 ***Video 3:*** <br>
