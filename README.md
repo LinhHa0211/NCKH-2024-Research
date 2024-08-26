@@ -6,16 +6,16 @@ Attached Into The paper For The Camera Version
 # Introduction:
 
 # Requirement:
-## Library
-#### 1. To cut video and extract frame
+## Library:
+#### 1. To cut video and extract frame:
 ```
      pip install moviepy
 ```
-#### 2. To download, train and use YOLO model
+#### 2. To download, train and use YOLO model:
 ```
      pip install ultralytics
 ```
-#### 3. To download, use VnCoreNLP
+#### 3. To download and use VnCoreNLP:
 ```
     pip install py_vncorenlp
 ```
@@ -26,13 +26,13 @@ To use VnCoreNLP, your computer must have JVM (Java Virtual Machine) installed. 
 If it is installed, the result should look like this:
 ![JVM](jvm.png)
 Otherwise, you can download JVM at link: https://www.oracle.com/java/technologies/downloads/#java8
-#### 4. To download, train and use PhoBERT model
+#### 4. To download, train and use PhoBERT model:
 ```
      pip install transformers torch
 ```
 
 
-# Train Model
+# Train Model:
 ### 1. YOLO Model:
 First, you need to prepare a labeled images dataset. You can use [Roboflow](https://app.roboflow.com/) for this. Then, download the dataset that is suitable for **YOLO-v9**.
 
