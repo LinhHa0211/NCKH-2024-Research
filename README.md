@@ -15,7 +15,7 @@ understanding of dance performances. Our experimental results indicate
 a commendable accuracy rate exceeding 86%, highlighting the effectiveness of our approach in both predicting dance styles and generating
 insightful descriptions. Additionally, our method provides transparent
 explanations for prediction outcomes, offering valuable insights into the
-distinctive characteristics of various dance forms. *
+distinctive characteristics of various dance forms.*
 # Requirement:
 ## Library:
 #### 1. To cut video and extract frame:
