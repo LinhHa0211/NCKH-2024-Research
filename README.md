@@ -24,7 +24,7 @@ To use VnCoreNLP, your computer must have JVM (Java Virtual Machine) installed. 
      java -version
 ```
 If it is installed, the result should look like this:
-![JVM]()
+![JVM](jvm.png)
 Otherwise, you can download JVM at link: https://www.oracle.com/java/technologies/downloads/#java8
 ##### 4. To download, train and use PhoBERT model
 ```
