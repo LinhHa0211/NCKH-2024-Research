@@ -69,7 +69,7 @@ Replace ```your_model_path_dir``` with the path to save your model.
 ![Results2](./demo/demo2.jpg) <br>
 
 ***Video 3:*** <br>
-**True Label**: *Điệu múa Rô băm Chun Por của người Khmer* <br>
+**True Label**: *"Điệu múa Rô băm Chun Por của người Khmer"* <br>
 **Predicted Label**: <br>
 *1. "Điệu múa Rô băm Chun Por của người Khmer"* appears for 160 seconds in the video. <br>
 *2. "Điệu múa nón lá của người Kinh"* appears for 20 seconds in the video. <br>
