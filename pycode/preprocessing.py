@@ -288,7 +288,7 @@ class PreprocessingForSentences:
         for i in range(len(top_labels)):
             for j in range(i + 1, len(top_labels)):
                 for k in range(j + 1, len(top_labels)):
-                    append_func(sentences_list_2, [top_labels[i], top_labels[j], top_labels[k]])
+                    append_func(sentences_list_3, [top_labels[i], top_labels[j], top_labels[k]])
         
         sentences_list = []
         sentences_list += random.sample(sentences_list_1, min(len(sentences_list_1), n_sentences[0]))
