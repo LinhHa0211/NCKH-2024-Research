@@ -45,14 +45,14 @@ Next, you should download your model to your computer for later use.
 ### 2. PhoBERT Model:
 First, you need to prepare a labeled texts dataset. It has two columns: ***texts*** and ***labels***. The ***texts*** column includes sentences that contain keywords related to their labels. Each row should contain only one sentence.
 Second, you can use some preprocessing methods for NLP to preprocess your dataset (VnCoreNLP is one of these steps).
-Third, you can download it with the commands below:
+Next, you can download the model with the commands below:
 ```
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 model_name = 'vinai/phobert-base-v2'
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSequenceClassification.from_pretrained(model_name)
 ```
-Finally, the model is ready for training *(using a GPU is recommended)*. After that, you should save the model *(for later use)* with this command:
+After that, the model is ready for training *(using a GPU is recommended)*. Finally, you should save the model *(for later use)* with this command:
 ```
 tokenizer.save_pretrained('your_model_path_dir')
 model.save_pretrained('your_model_path_dir')
