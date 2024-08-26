@@ -43,7 +43,7 @@ Replace ```path/to/dataset.yaml``` with the path to your dataset's .yaml file.<b
 Next, you should download your model to your computer for later use.
 ### 2. PhoBERT Model:
 First, you need to prepare a labeled texts dataset. It has two columns: ***texts*** and ***labels***. The ***texts*** column includes sentences that contain keywords related to their labels. Each row should contain only one sentence. <br>
-Second, you can use some preprocessing methods for NLP to preprocess your dataset (VnCoreNLP is one of these steps). <br>
+Second, you can use some preprocessing methods for NLP to preprocess your dataset *(VnCoreNLP is one of these steps)*. <br>
 Next, you can download the model with the commands below:
 ```
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
@@ -59,21 +59,21 @@ model.save_pretrained('your_model_path_dir')
 Replace ```your_model_path_dir``` with the path to save your model.
 # Result:
 ***Video 1:*** <br>
-**True Label**: *Điệu múa sen của người Kinh* <br>
-**Pred Label**: *Điệu múa sen của người Kinh*
+**True Label**: *"Điệu múa sen của người Kinh"* <br>
+**Predicted Label**: *"Điệu múa sen của người Kinh"*
 ![Results1](./demo/demo1.jpg) <br>
 
 ***Video 2:*** <br>
-**True Label**: *Điệu múa sạp của người Thái, Mường* <br>
-**Pred Label**: *Điệu múa sạp của người Thái, Mường*
+**True Label**: *"Điệu múa sạp của người Thái, Mường"* <br>
+**Predicted Label**: *"Điệu múa sạp của người Thái, Mường"*
 ![Results2](./demo/demo2.jpg) <br>
 
 ***Video 3:*** <br>
 **True Label**: *Điệu múa Rô băm Chun Por của người Khmer* <br>
-**Pred Label**: <br>
-*1. Điệu múa Rô băm Chun Por của người Khmer* appears for 160 seconds in the video. <br>
-*2. Điệu múa nón lá của người Kinh* appears for 20 seconds in the video. <br>
-Therefore, we conclude that the label *Điệu múa Rô băm Chun Por của người Khmer* has higher confidence because it appears more frequently in the video than the other label.
+**Predicted Label**: <br>
+*1. "Điệu múa Rô băm Chun Por của người Khmer"* appears for 160 seconds in the video. <br>
+*2. "Điệu múa nón lá của người Kinh"* appears for 20 seconds in the video. <br>
+Therefore, we conclude that the label *"Điệu múa Rô băm Chun Por của người Khmer"* has higher confidence because it appears more frequently in the video than the other label.
 ![Results3](./demo/demo3.1.jpg) <br>
 
 
