@@ -34,17 +34,16 @@ Otherwise, you can download JVM at link: https://www.oracle.com/java/technologie
 
 # Train Model:
 ### 1. YOLO Model:
-First, you need to prepare a labeled images dataset. You can use [Roboflow](https://app.roboflow.com/) for this. Then, download the dataset that is suitable for **YOLO-v9**.
-
+First, you need to prepare a labeled images dataset. You can use [Roboflow](https://app.roboflow.com/) for this. Then, download the dataset that is suitable for **YOLO-v9**.<br>
 Second, you can use [Kaggle](https://www.kaggle.com/) or Colab of Google to train the YOLO-v9s model, as it requires a GPU to run and process. Below is the command for downloading and training model:
 ```
 !yolo task=detect mode=train model=yolov9s.pt epochs=30 batch=32 data=path/to/dataset.yaml imgsz=480
 ```
-Replace ```path/to/dataset.yaml``` with the path to your dataset's .yaml file.
+Replace ```path/to/dataset.yaml``` with the path to your dataset's .yaml file.<br>
 Next, you should download your model to your computer for later use.
 ### 2. PhoBERT Model:
-First, you need to prepare a labeled texts dataset. It has two columns: ***texts*** and ***labels***. The ***texts*** column includes sentences that contain keywords related to their labels. Each row should contain only one sentence.
-Second, you can use some preprocessing methods for NLP to preprocess your dataset (VnCoreNLP is one of these steps).
+First, you need to prepare a labeled texts dataset. It has two columns: ***texts*** and ***labels***. The ***texts*** column includes sentences that contain keywords related to their labels. Each row should contain only one sentence.<br>
+Second, you can use some preprocessing methods for NLP to preprocess your dataset (VnCoreNLP is one of these steps).<br>
 Next, you can download the model with the commands below:
 ```
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
@@ -60,17 +59,17 @@ model.save_pretrained('your_model_path_dir')
 Replace ```your_model_path_dir``` with the path to save your model.
 # Result:
 ***Video 1:***
-**True Label: Điệu múa sen của người Kinh**
+**True Label: Điệu múa sen của người Kinh**<br>
 **Pred Label: Điệu múa sen của người Kinh**
 ![Results1](./demo/demo1.jpg)
 
 ***Video 2:***
-**True Label: Điệu múa sạp của người Thái, Mường**
+**True Label: Điệu múa sạp của người Thái, Mường**<br>
 **Pred Label: Điệu múa sạp của người Thái, Mường**
 ![Results2](./demo/demo2.jpg)
 
 ***Video 3:***
-**True Label: Điệu múa Rô băm Chun Por của người Khmer**
+**True Label: Điệu múa Rô băm Chun Por của người Khmer**<br>
 **Pred Label: Điệu múa Rô băm Chun Por của người Khmer**
 ![Results3](./demo/demo3.1.jpg)
 
