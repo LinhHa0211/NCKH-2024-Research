@@ -19,11 +19,11 @@ Attached Into The paper For The Camera Version
 ```
     pip install py_vncorenlp
 ```
-To use VnCoreNLP, your computer must install JVM (Java Virtual Machine). You can check it with this command in **Command Prompt**
+To use VnCoreNLP, your computer must have JVM (Java Virtual Machine) installed. You can check if it is installed with this command in your **Command Prompt**:
 ```
      java -version
 ```
-If you installed, the result is like below:
+If it is installed, the result should look like this:
 ![JVM]()
 Otherwise, you can download JVM at link: https://www.oracle.com/java/technologies/downloads/#java8
 ##### 4. To download, train and use PhoBERT model*
