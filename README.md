@@ -62,12 +62,12 @@ Replace ```your_model_path_dir``` with the path to save your model.
 **True Label**: *Điệu múa sen của người Kinh*<br>
 **Pred Label**: *Điệu múa sen của người Kinh*
 ![Results1](./demo/demo1.jpg)
-
+-----------------------------------------------
 ***Video 2:***<br>
 **True Label**: *Điệu múa sạp của người Thái, Mường*<br>
 **Pred Label**: *Điệu múa sạp của người Thái, Mường*
 ![Results2](./demo/demo2.jpg)
-
+-----------------------------------------------
 ***Video 3:***<br>
 **True Label**: *Điệu múa Rô băm Chun Por của người Khmer*<br>
 **Pred Label**: *Điệu múa Rô băm Chun Por của người Khmer*
