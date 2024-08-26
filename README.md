@@ -41,6 +41,7 @@ Second, you can use [Kaggle](https://www.kaggle.com/) or Colab of Google to trai
 ```
 Replace ```path/to/dataset.yaml``` with the path to your dataset's .yaml file.<br>
 Next, you should download your model to your computer for later use.
+
 ### 2. PhoBERT Model:
 First, you need to prepare a labeled texts dataset. It has two columns: ***texts*** and ***labels***. The ***texts*** column includes sentences that contain keywords related to their labels. Each row should contain only one sentence. <br>
 Second, you can use some preprocessing methods for NLP to preprocess your dataset *(VnCoreNLP is one of these steps)*. <br>
@@ -57,7 +58,8 @@ tokenizer.save_pretrained('your_model_path_dir')
 model.save_pretrained('your_model_path_dir')
 ```
 Replace ```your_model_path_dir``` with the path to save your model.
-# Result:
+
+# Results:
 ***Video 1:*** <br>
 **True Label**: *"Điệu múa sen của người Kinh"* <br>
 **Predicted Labels**: *"Điệu múa sen của người Kinh"*
