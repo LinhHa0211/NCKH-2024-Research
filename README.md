@@ -4,7 +4,7 @@ Vietnamese Folk Dance Video Analysis
 Attached Into The paper For The Camera Version
 
 # Introduction:
-*we propose an innovative approach to analyzing and characterizing dance performances by converting visual data
+*We propose an innovative approach to analyzing and characterizing dance performances by converting visual data
 into a text-based classification and description framework. Our method
 entails extracting key features from dance videos and converting these
 features into textual representations. These text-based features are then
